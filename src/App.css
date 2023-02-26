@@ -20,7 +20,7 @@ body{
   font-size: 1.2rem;
   width: 3rem;
   height: 3rem;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   margin: 0.4rem;
   background-color: #097770;
 }

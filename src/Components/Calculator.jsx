@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Display from "./Display";
 import Keys from "./keys";
 
 export default class Calculator extends Component {
@@ -86,7 +85,7 @@ export default class Calculator extends Component {
     return (
       <div>
         <div className="calculator">
-          <Display result={this.state.result} />
+          <input id="inputField" type="text" value={this.state.result} />
           <Keys onClick={this.onClick} />
         </div>
       </div>
