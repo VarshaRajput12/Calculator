@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Keys from "./keys";
+import Keys from "./keypad";
 
 export default class Calculator extends Component {
   state = {
